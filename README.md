@@ -57,8 +57,7 @@ Relevant columns:
   - "counterbalance" or "equal" will randomly assign the images to left or right, but evenly distribute image_1 and image_2 to either side. This is the default option if you don't specify anything in the **left_side** column.
 
 ## freeview_image_file columns
-There are three columns: **image_1**, **image_2** and **left_image**. **left_image** identifies which image will go on the left, and thus by definition the other image will go on the right. You can also randomise which image is on either side. This leaves you with three settings for **left_image**:
-
+There are two columns: **image_1** and **image_2**. Change the settings in the **left_side** column in the main experiment to control which side each image will appear. 
 
 ## Gotchas
 
