@@ -51,6 +51,10 @@ Relevant columns:
 - trials: How many of the rows in the **freeview_image_file** do you want to run/select? Specify the number of rows you have in the **freeview_image_file** to select all the trials.
 - trial_order: If you set this to "random" then it will randomise the order of the trials in the sheet you specified with **freeview_image_file**
 
+## Gotchas
+
+Sometimes Excel will save your freeview .csv with more rows than you intended. Whilst the trialtype will try to remove blank rows, if you are finding some of the images aren't loading then it might be because the trialtype hasn't succesfully deleted the blank rows.
+
 # Licensing
 This code is free to use without restriction, with the same licensing intentions as Collector originally created by Mikey Garcia (https://github.com/gikeymarcia/Collector), currently developed by some open solutions (https://github.com/some-open-solutions/collector):
 
