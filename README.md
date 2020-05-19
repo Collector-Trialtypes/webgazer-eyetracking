@@ -51,6 +51,12 @@ Relevant columns:
 - trials: How many of the rows in the **freeview_image_file** do you want to run/select? Specify the number of rows you have in the **freeview_image_file** to select all the trials.
 - trial_order: If you set this to "random" then it will randomise the order of the trials in the sheet you specified with **freeview_image_file**
 
+## freeview_image_file columns
+There are three columns: **image_1**, **image_2** and **left_image**. **left_image** identifies which image will go on the left, and thus by definition the other image will go on the right. You can also randomise which image is on either side. This leaves you with three settings for **left_image**:
+- "image_1" will put image_1 on the left, image_2 on the right 
+- "image_2" will put image_2 on the left, image_1 on the right
+- "random" will randomly assign the images to left or right
+
 ## Gotchas
 
 Sometimes Excel will save your freeview .csv with more rows than you intended. Whilst the trialtype will try to remove blank rows, if you are finding some of the images aren't loading then it might be because the trialtype hasn't succesfully deleted the blank rows.
