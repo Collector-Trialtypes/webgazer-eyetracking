@@ -42,7 +42,7 @@ and click "save link as".
 
 Relevant columns:
 - calibrations: The default is 13 calibrations to make the participant look at all 13 predefined points on the screen
-- freeview_image_file: Specify where the file is that lists the file locations of the images you are presenting. **Note that for eye-tracking you only have one row in your *procedure* sheet for all the eyetracking trials.**
+- freeview_image_file: Specify where the file is that lists the file locations of the images you are presenting. **Note that for eye-tracking you only have one row in your *procedure* sheet for all the eyetracking trials.** If your eye-tracking experiment is being developed on an installed version of Collector, you can store this **freeview_image_file** file in the **user** folder, and then write the location of it relative to the **user** folder itself. For example, if your **freeview_image_file** was called "freeview_stimuli.csv" and in "User/freeviewing/", then you would write "freeviewing/freeview_stimuli.csv" in the **freeview_image_file** column.
 - design_type: either "freeview" to compare gaze to pairs of images, "simple" to measure participants looking at a dot, or "pursuit" for participants to follow a dot and its movement.
 - calibration_skip: Allows you to skip calibration. Just write "skip","on" or "true" in this column to skip. This can be helpful when you're designing experiments.
 - image_height: we'd suggest you use px (pixels) rather than % (percentages) to make the stimuli consistent between participants.
