@@ -42,7 +42,7 @@ and click "save link as".
 
 Relevant columns:
 - calibrations: The default is 13 calibrations to make the participant look at all 13 predefined points on the screen
-- freeview_image_file: Specify where the file is that lists all the locations of the images you are presenting. **Note that for eye-tracking you only have one row in your *procedure* sheet for all the eyetracking trials.**
+- freeview_image_file: Specify where the file is that lists the file locations of the images you are presenting. **Note that for eye-tracking you only have one row in your *procedure* sheet for all the eyetracking trials.**
 - design_type: either "freeview" to compare gaze to pairs of images, "simple" to measure participants looking at a dot, or "pursuit" for participants to follow a dot and its movement.
 - calibration_skip: Allows you to skip calibration. This can be helpful when you're designing experiments.
 - image_height: we'd suggest you use px (pixels) rather than % (percentages) to make the stimuli consistent between participants.
