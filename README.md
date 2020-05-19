@@ -47,6 +47,7 @@ Relevant columns:
 - calibration_skip: Allows you to skip calibration. This can be helpful when you're designing experiments.
 - image_height: we'd suggest you use px (pixels) rather than % (percentages) to make the stimuli consistent between participants.
 - image_width: we'd suggest you use px (pixels) rather than % (percentages) to make the stimuli consistent between participants.
+- save_script: unless you are only running the experiment on your local machine, you will need to set up a google script to save your data. This repository comes with "GoogleScript.js", which you need to upload to your google drive as a "Google Apps Script" and then publish to get the location of the script. **NOTE DO NOT DO THIS WITH A PERSONAL GOOGLE ACCOUNT! This script allows participants to write into your google drive! If you haven't already, create a new google account for your research.** Instructions about uploading google scripts can be found at https://docs.google.com/document/d/1SKYIJF1dAjMDS6EHUIwfZm2KQVOzx17S6LbU_oSGxdE/edit?usp=sharing
 
 
 # Licensing
