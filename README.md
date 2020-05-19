@@ -48,7 +48,7 @@ Relevant columns:
 - image_height: we'd suggest you use px (pixels) rather than % (percentages) to make the stimuli consistent between participants.
 - image_width: we'd suggest you use px (pixels) rather than % (percentages) to make the stimuli consistent between participants.
 - save_script: unless you are only running the experiment on your local machine, you will need to set up a google script to save your data. This repository comes with "GoogleScript.js", which you need to upload to your google drive as a "Google Apps Script" and then publish to get the location of the script. **NOTE DO NOT DO THIS WITH A PERSONAL GOOGLE ACCOUNT! This script allows participants to write into your google drive! If you haven't already, create a new google account for your research.** Instructions about uploading google scripts can be found at https://docs.google.com/document/d/1SKYIJF1dAjMDS6EHUIwfZm2KQVOzx17S6LbU_oSGxdE/edit?usp=sharing
-- trials: How many of the rows in the **freeview_image_file** do you want to run/select?
+- trials: How many of the rows in the **freeview_image_file** do you want to run/select? Specify the number of rows you have in the **freeview_image_file** to select all the trials.
 
 # Licensing
 This code is free to use without restriction, with the same licensing intentions as Collector originally created by Mikey Garcia (https://github.com/gikeymarcia/Collector), currently developed by some open solutions (https://github.com/some-open-solutions/collector):
