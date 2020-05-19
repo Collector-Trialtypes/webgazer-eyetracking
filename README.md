@@ -44,7 +44,7 @@ Relevant columns:
 - calibrations: The default is 13 calibrations to make the participant look at all 13 predefined points on the screen
 - freeview_image_file: Specify where the file is that lists the file locations of the images you are presenting. **Note that for eye-tracking you only have one row in your *procedure* sheet for all the eyetracking trials.**
 - design_type: either "freeview" to compare gaze to pairs of images, "simple" to measure participants looking at a dot, or "pursuit" for participants to follow a dot and its movement.
-- calibration_skip: Allows you to skip calibration. This can be helpful when you're designing experiments.
+- calibration_skip: Allows you to skip calibration. Just write "skip","on" or "true" in this column to skip. This can be helpful when you're designing experiments.
 - image_height: we'd suggest you use px (pixels) rather than % (percentages) to make the stimuli consistent between participants.
 - image_width: we'd suggest you use px (pixels) rather than % (percentages) to make the stimuli consistent between participants.
 - save_script: unless you are only running the experiment on your local machine, you will need to set up a google script to save your data. This repository comes with "GoogleScript.js", which you need to upload to your google drive as a "Google Apps Script" and then publish to get the location of the script. **NOTE DO NOT DO THIS WITH A PERSONAL GOOGLE ACCOUNT! This script allows participants to write into your google drive! If you haven't already, create a new google account for your research.** Instructions about uploading google scripts can be found at https://docs.google.com/document/d/1SKYIJF1dAjMDS6EHUIwfZm2KQVOzx17S6LbU_oSGxdE/edit?usp=sharing
